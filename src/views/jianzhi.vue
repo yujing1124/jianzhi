@@ -10,7 +10,11 @@
 				<img src="../assets/img/use/right-decorate.png"/>
 			</div>
 			
+<<<<<<< HEAD
 			<div class="lists margin15" v-for="(item,index) in top" @click="details(item)">
+=======
+			<div class="lists margin15" v-for="(item,index) in top" @click="details">
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 				<div class="space-between">
 					<div class="head">
 						{{item.title}}
@@ -42,7 +46,11 @@
 				<img src="../assets/img/use/right-decorate.png"/>
 			</div>
 			
+<<<<<<< HEAD
 			<div class="lists margin15" v-for="(item,index) in funny"  @click="details(item)">
+=======
+			<div class="lists margin15" v-for="(item,index) in funny">
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 				<div class="space-between">
 					<div class="head">
 						{{item.title}}
@@ -83,10 +91,15 @@
 			this.getList()
 		},
 		methods:{
+<<<<<<< HEAD
 			details(obj){
 				console.log(obj)
 				this.$router.push('/jianzhi/details')
 				localStorage.setItem('jianzhiDetails',JSON.stringify(obj))
+=======
+			details(){
+				this.$router.push('/jianzhi/details')
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 			},
 			getList(){
 				var city = localStorage.getItem('city')

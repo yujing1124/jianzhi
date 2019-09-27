@@ -71,6 +71,7 @@ export default new Router({
 					name: '发布兼职',
 					component: () =>
 						import('./views/part-time/release-two.vue'),
+<<<<<<< HEAD
 				},
 				{
 					path: 'releasethree',
@@ -79,6 +80,10 @@ export default new Router({
 						import('./views/part-time/release-three.vue'),
 				}
 			],
+=======
+				},],
+
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 		}, {
 			path: '/search',
 			name: '搜索',

@@ -33,9 +33,13 @@
         <div class="title">
           <div class="title1">详细地址</div>
         </div>
+<<<<<<< HEAD
         <div>
           <input type="type" placeholder="请选择地址" class="input2" />
         </div>
+=======
+        <input type="type" placeholder="请选择地址" class="input" />
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
       </div>
       <div class="margin15 stepone">
         <div class="btn">
@@ -101,6 +105,7 @@ export default {
     border: none;
     border-bottom: 0.00625rem solid #eee;
   }
+<<<<<<< HEAD
   .input2 {
     line-height: 1.875rem;
     width: 100%;
@@ -114,6 +119,8 @@ export default {
     width: 0.5rem;
     height: 0.5rem;
   }
+=======
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 }
 .btn {
   display: flex;

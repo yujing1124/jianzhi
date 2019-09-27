@@ -2,7 +2,11 @@
 	<div>
 		<div class="mainmes margin15" id="navtop">
 			<div class="space-between">
+<<<<<<< HEAD
 				<div class="title">{{details.title}}</div>
+=======
+				<div class="title">UI设计师兼职</div>
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 				<div class="flex">
 					<div style="margin-right: 0.4rem;">
 						<img src="../../assets/img/icons/share-icon.png" /> 分享
@@ -13,6 +17,7 @@
 				</div>
 			</div>
 			<div class="simple">
+<<<<<<< HEAD
 				{{details.area_name}} | {{details.job_type_text}} <span v-if='details.limit_sex==1'>| 限男生</span>
 				<span v-if='details.limit_sex==2'>限女生</span><span v-if='details.limit_sex==0'>不限性别</span> | {{payType(details.pay_type)}}
 			</div>
@@ -27,6 +32,21 @@
 			<div class="simple">
 				招聘人数：35/{{details.num}}
 				<br /> 报名截止时间：{{formatDateFull(details.join_end_time)}}
+=======
+				淄博 | 张店区 | 设计 | 限女生 | 完工结算
+			</div>
+			<div class="simple">
+				限18岁以上50岁以下报名
+			</div>
+			<div>
+				<i class="official">官方发布</i>
+				<i class="renzheng">认证商家</i>
+			</div>
+			<div class="price">300元/日</div>
+			<div class="simple">
+				招聘人数：35/999
+				<br /> 报名截止时间：2019年04月05日 13：05
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 			</div>
 			<div class="flex attention">
 				<img src="../../assets/img/use/info-checked.png" />
@@ -51,7 +71,11 @@
 
 			</div>
 			<div class="simple">
+<<<<<<< HEAD
 				浏览量：{{details.views}}
+=======
+				浏览量：325
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 			</div>
 		</div>
 		<div class="describe margin15">
@@ -61,21 +85,37 @@
 				<div class="flex attention">
 					<img src="../../assets/img/icons/time-icon.png" />
 					<div id="">
+<<<<<<< HEAD
 						{{formatDateFull(details.work_start_time)}}-{{formatDateFull(details.work_start_time)}}
 					</div>
 				</div>
 				<!--<div class="flex attention">
+=======
+						2019.04.06-2019.04.08 10:00-5:00
+					</div>
+				</div>
+				<div class="flex attention">
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 					<img src="../../assets/img/icons/address-icon.png" />
 					<div id="">
 						淄博市 张店区 汇金大厦A座 2301
 					</div>
+<<<<<<< HEAD
 				</div>-->
+=======
+				</div>
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 			</div>
 			<div>
 				<div>【工作地点】</div>
 				<div class="space-between attention">
 					<div>
+<<<<<<< HEAD
 						<img src="../../assets/img/icons/address-icon.png" /> {{details.place_address}}
+=======
+						<img src="../../assets/img/icons/address-icon.png" />
+						淄博银泰城
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 					</div>
 					<div style="text-align: right;">6.9公里 ></div>
 				</div>
@@ -83,7 +123,11 @@
 			<div>
 				<div>【工作内容】</div>
 				<div>
+<<<<<<< HEAD
 					{{details.details}} 1.负责公司网站的设计、改版、更新；
+=======
+					1.负责公司网站的设计、改版、更新；
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 					<br /> 2.负责公司产品的界面进行设计、编辑、美化等工作；
 					<br /> 3.对公司的宣传产品进行美工设计；
 					<br /> 4.负责客户及系统内的广告和专题的设计；
@@ -131,16 +175,25 @@
 		</div>
 		<div class="gray"></div>
 		<!--报名列表-->
+<<<<<<< HEAD
 		
 		<div class="employer signup" style="display: block;">
 			<div class="margin15">
 				<div class="title">留言咨询</div>
 				<div v-for="(item,index) in list" class="list">
 					<div class="">
+=======
+		<div class="employer signup">
+			<div class="margin15">
+				<div class="title">报名列表（66/999）</div>
+				<div v-for="(item,index) in list" class="list">
+					<div class="oh">
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 						<img src="" class="fl" />
 						<div id="" class="fl center">
 							<div>
 								马云
+<<<<<<< HEAD
 								<img src="../../assets/img/icons/auth-icon.png" class="" />
 							</div>
 							<div class="message">
@@ -151,10 +204,21 @@
 					</div>
 				</div>
 				<div class="toMess">我要留言</div>
+=======
+								<img src="../../assets/img/icons/vip-icon.png" class="vip" />
+							</div>
+							<div>
+								报名时间：2019.4.12 14:02:24
+							</div>
+						</div>
+					</div>
+				</div>
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 
 			</div>
 
 		</div>
+<<<<<<< HEAD
 		<div class="employer signup" style="margin-bottom: 0.8rem;">
 			<div class="margin15">
 				<div class="title">报名列表（66/999）</div>
@@ -171,6 +235,12 @@
 		<!--立即报名-->
 		<div class="tosignup oh">
 			<a href='18603456462' class="">联系电话</a>
+=======
+
+		<!--立即报名-->
+		<div class="tosignup oh">
+			<!--<button class="">立即沟通</button>-->
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 
 			<button class="fr">报名参加</button>
 		</div>
@@ -181,6 +251,7 @@
 	export default {
 		data() {
 			return {
+<<<<<<< HEAD
 				list: [{}, {}],
 				details: ''
 			}
@@ -246,6 +317,9 @@
 					date = '0' + date
 				}
 				return year + '年' + month + "月" + date + "日 " + hour + ':' + minute;
+=======
+				list: [{}, {}]
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 			}
 		}
 	}
@@ -369,6 +443,7 @@
 			background: #333333;
 			margin-right: 0.68rem;
 		}
+<<<<<<< HEAD
 		>div>div>div.signimg{
 			float: left;
 			width: 2rem;
@@ -384,6 +459,8 @@
 			top: 0rem;
 			left: 0rem;
 		}
+=======
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 		.center {
 			width: 8rem;
 			img {
@@ -407,6 +484,7 @@
 				color: #666666;
 				font-weight: 300;
 			}
+<<<<<<< HEAD
 			>div.message {
 				width: 100%;
 				min-height: 1.8rem;
@@ -438,6 +516,8 @@
 			font-size: 0.64rem;
 			margin-top: 1.4rem;
 			font-weight: 600;
+=======
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 		}
 		button {
 			width: 2.8rem;
@@ -452,7 +532,11 @@
 	
 	.signup {
 		padding: 1.2rem 0rem;
+<<<<<<< HEAD
 		/*margin-bottom: 0.8rem;*/
+=======
+		margin-bottom: 0.8rem;
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 		.title {
 			margin-bottom: 1.2rem;
 		}
@@ -477,6 +561,7 @@
 			font-size: 0.64rem;
 			border: none;
 		}
+<<<<<<< HEAD
 		a {
 			display: inline-block;
 			height: 1.8rem;
@@ -490,5 +575,7 @@
 			box-sizing: border-box;
 			border-radius: 0.12rem;
 		}
+=======
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 	}
 </style>

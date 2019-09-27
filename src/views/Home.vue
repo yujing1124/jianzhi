@@ -33,7 +33,11 @@
 			</div>
 
 			<!--间职列表-->
+<<<<<<< HEAD
 			<div class="lists" v-for="(item,index) in lists" @click="details(item)">
+=======
+			<div class="lists" v-for="(item,index) in lists" @click="details">
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 				<div class="space-between">
 					<div class="head">
 						{{item.title}}
@@ -122,10 +126,15 @@
 
 		},
 		methods: {
+<<<<<<< HEAD
 			details(obj) {
 				console.log(obj)
 				this.$router.push('/jianzhi/details')
 				localStorage.setItem('jianzhiDetails',JSON.stringify(obj))
+=======
+			details() {
+				this.$router.push('/jianzhi/details')
+>>>>>>> 7114ea9bcc5c355bc1f3d0333c9fa133afb42e14
 			},
 			jianzhimore() {
 				this.$router.push('/jianzhi')
